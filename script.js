@@ -6,13 +6,13 @@ function compute()
     var years = document.getElementById("years").value
     var interest = principal * years * rate / 100;
     var d = new Date();
-    var Actual_year = d.getFullYear();
-    document.getElementById("result").innerHTML = 
-    `If you deposit ${principal},\n
-    at an interest rate of ${rate}%.\n
-    You will receive an amount of ${interest},\n
-    in the year ${Actual_year}`
-}
+    var Actual_year = Number(d.getFullYear())+Number(years);
+    var text = `If you deposit <mark>${principal}</mark> </br>
+    at an interest rate of <mark>${rate}%</mark>.</br>
+    You will receive an amount of <mark>${interest}</mark>,</br>
+    in the year <mark>${Actual_year}</mark>`
+    document.getElementById("result").innerHTML = text
+    }
 
 //function to display range slider value
 function slider_value()
