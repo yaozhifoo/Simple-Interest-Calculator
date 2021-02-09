@@ -18,13 +18,12 @@ h1{
     text-align: left;
     }
 
-.wrap {
+.container {
+    width: 60%;
     margin: 0 auto;
 }
 
-/*.content {
-    float: left;
-    position: relative;
-    left: -50%;
-}*/
+.slider_length{
+    width: 100px;
+    }
 
