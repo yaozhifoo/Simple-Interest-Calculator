@@ -6,7 +6,8 @@ body {
 
 h1{
     color:grey; 
-    font-family: Verdana
+    font-family: Verdana;
+    margin:0;
     }
 
 .maindiv {
@@ -17,21 +18,14 @@ h1{
     border-radius: 25px;
     }
 
+/*indent table from the left */
 .inputtable{
     margin-left:80px;
 }
 
+/*indent results displayed theleft */
 .resulttext{
-    margin-left:80px
+    margin-left:80px;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
-/*
-
-.container {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.slider_length{
-    width: 100px;
-    }
-
