@@ -7,7 +7,8 @@ function compute()
     var interest = principal * years * rate / 100;
     var d = new Date();
     var Actual_year = Number(d.getFullYear())+Number(years);
-    var text = `If you deposit <mark>${principal}</mark> </br>
+    var text = 
+    `If you deposit <mark>${principal}</mark> </br>
     at an interest rate of <mark>${rate}%</mark>.</br>
     You will receive an amount of <mark>${interest}</mark>,</br>
     in the year <mark>${Actual_year}</mark>`

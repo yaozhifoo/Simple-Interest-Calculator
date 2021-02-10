@@ -15,8 +15,16 @@ h1{
     width: 500px; 
     padding: 20px; 
     border-radius: 25px;
-    text-align: left;
     }
+
+.inputtable{
+    margin-left:80px;
+}
+
+.resulttext{
+    margin-left:80px
+}
+/*
 
 .container {
     width: 60%;
